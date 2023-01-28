@@ -1,0 +1,100 @@
+header {
+	width: 550;
+	height: 55;
+	background-color: #F55A5A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.header--title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14.4608px;
+	line-height: 18px;
+	letter-spacing: -0.075em;
+	color: white;
+	padding-left: 7px;
+}
+
+.card {
+	display: flex;
+	align-items: flex-start;
+	width: 470px;
+	height: 168px;
+	margin-top: 45px;
+	font-family: 'Inter';
+	
+	
+}
+
+.card > img {
+	width: 125px;
+	height: 168px;
+	border-radius: 5px;
+}
+
+.card--country {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10.24px;
+	line-height: 12px;
+	margin-left: 0px;
+}
+
+.card--country > img {
+	margin-left: 10px;
+	padding-right: 5px;
+}
+
+.card--country > a{
+	text-decoration-line: underline;
+	color: #918E9B;
+}
+
+.card--country > p {
+	text-transform: uppercase;
+	padding-right: 10px;
+	letter-spacing: 0.17em;	
+	color: #2B283A;
+}
+
+.card--title {
+	margin-top: 0;
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.card--dates {
+	margin-left: 10px;
+	font-size: 10.24px;
+	line-height: 12px;
+	color: #2B283A;
+}
+
+.card--description {
+	width: 326px;
+	margin-left: 10px;
+	font-weight: 400;
+	font-size: 10.24px;
+	line-height: 15px;
+	color: #2B283A
+}
+
+.card--main {
+	margin-left: 20px;
+	width: 478px;
+}
+.card--bottomline {
+	border-top: 1px solid #F5F5F5;
+	margin-top: 20px;
+}
